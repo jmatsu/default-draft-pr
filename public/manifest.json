@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Default Draft Pull Request",
+  "description": "Force to select a draft pull request when opening a new pull request page",
+  "version": "0.1",
+
+  "icons": {
+    "128": "icon_128.png"
+  },
+
+  "content_scripts": [
+      {
+          "matches": ["https://github.com/*/*/compare/*"],
+          "js": ["js/vendor.js", "js/content_script.js"]
+      }
+  ],
+
+  "permissions": [
+    "https://github.com/*/*/compare/*"
+  ]
+}
