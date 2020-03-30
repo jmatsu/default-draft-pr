@@ -7,7 +7,7 @@ on:
       - v\d\.\d
 
 jobs:
-  track_click_up_task:
+  release:
     runs-on: ubuntu-latest
 
     steps:
