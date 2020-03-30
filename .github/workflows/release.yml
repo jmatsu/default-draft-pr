@@ -3,8 +3,8 @@ name: Run jobs on master
 
 on: 
   push:
-    branches:
-      - master
+    tags:
+      - v\d\.\d
 
 jobs:
   track_click_up_task:
