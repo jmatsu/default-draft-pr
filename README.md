@@ -1,6 +1,6 @@
 # Default Draft Pull Request
 
-A minimul Google Chrome extension forces to select a draft pull request by default.
+A minimal Google Chrome extension forces to select a draft pull request by default.
 
 ## Install
 
