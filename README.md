@@ -9,6 +9,10 @@ A minimal Google Chrome extension forces to select a draft pull request by defau
 - Open `chrome://extensions`
 - Click `Load unpacked` and load the directory that was unzipped above
 
+**permission**
+
+- Use `tabs` because GitHub is using ajax loading so it's hard to detect the *compare* page using only content_script.
+
 ## Development
 
 ```
