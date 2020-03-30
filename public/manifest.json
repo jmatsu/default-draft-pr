@@ -3,20 +3,27 @@
 
   "name": "Default Draft Pull Request",
   "description": "Force to select a draft pull request when opening a new pull request page",
-  "version": "0.1",
+  "version": "0.2",
 
   "icons": {
     "128": "icon_128.png"
   },
 
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+
   "content_scripts": [
       {
-          "matches": ["https://github.com/*/*/compare/*"],
+          "matches": [
+            "https://github.com/*"
+          ],
           "js": ["js/vendor.js", "js/content_script.js"]
       }
   ],
 
   "permissions": [
-    "https://github.com/*/*/compare/*"
+    "tabs"
   ]
 }
