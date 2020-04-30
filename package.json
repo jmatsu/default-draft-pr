@@ -16,7 +16,7 @@
     "url": "https://github.com/jmatsu/default-draft-pr"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "@types/chrome": "~0.0.91",
